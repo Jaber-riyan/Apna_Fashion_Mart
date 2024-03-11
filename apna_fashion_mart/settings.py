@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-6e3m1kkwdsgoatyv%gof=6+=7mtc)jz&+&2q72_!^4d25)a(nf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://apna-fashion-mart.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
